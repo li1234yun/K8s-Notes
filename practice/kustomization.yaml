@@ -1,0 +1,9 @@
+configMapGenerator:
+- name: game-config-8
+  files:
+    - configure-pod-container/configmap/game.properties
+    - custom-ui=configure-pod-container/configmap/ui.properties
+  literals:
+    - special.how=very
+    - special.type=charm
+
